@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- **************  First navbar ****************** -->
+    <div class="mail">
+        <span><a href="#" class="fa fa-map-marker"></a> 88 Road Brooklyn Golden Street, New York</span>
+        <span><a href="#" class="fa fa-envelope"></a> needhelp@kontin.com</span>
+        <span class="social-media">
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </span>
+    </div>
+
+    <!-- ******************** Header ************************** -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="building.png" alt="logo" width="80%" height="80%">
+                <h1 style="font-size: x-large;">KONTIN</h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <a href="#" class="fa fa-phone"></a>
+                <h2>92 666 888 0000</h2>
+                <p>Mon to Fri: 9:00am to 12:00pm</p>
+            </div>
+        </div>
+    </header>
+    <main>
+      <div class="header-img">
+           <div>
+               <p class="breadcrumbs">Home / Contact</p>
+               <h1 class="heading-1">Contact</h1>
+           </div>
+       </div>
+  </main>
+
+
+
+  <!-- *****************CARDS************** -->
+    <section class="container">
+        <div class="row">
+            <div class="card column">
+                <img src="https://plus.unsplash.com/premium_photo-1677707057181-a8d8a4b790fd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHRleGFzJTIwd2VzdCUyMGhpbGwlMjBjb25zdHJ1Y3Rpb258ZW58MHx8MHx8fDA%3D" alt="image" style="width:100%">
+                <h1>Austin</h1>
+                <p class="title"><a href="#"><img src="phone.png" alt="">92 666 888 0000</a></p> 
+                <p class="title"><a href="#"><img src="email.png" alt="">needhelp@kontin.com</a></p>
+                <p class="title"><a href="#"><img src="maps-and-flags.png" alt="">22 Texas west hills, Austin</a></p>
+            </div>
+            <div class="card column">
+                <img src="https://images.unsplash.com/photo-1495036019936-220b29b930ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRleGFzJTIwd2VzdCUyMGhpbGwlMjBjb25zdHJ1Y3Rpb258ZW58MHx8MHx8fDA%3D" alt="image" style="width:100% ">
+                <h1>Broklyn</h1>
+                <p class="title"><a href="#"><img src="phone.png" alt="">92 666 888 0000</a></p> 
+                <p class="title"><a href="#"><img src="email.png" alt="">needhelp@kontin.com</a></p>
+                <p class="title"><a href="#"><img src="maps-and-flags.png" alt="">22 Texas west hills, Austin</a></p>
+            </div>
+            <div class="card column">
+                <img src="https://images.pexels.com/photos/1116035/pexels-photo-1116035.jpeg?auto=compress&cs=tinysrgb&w=600" alt="image" style="width:100%">
+                <h1>Dubai</h1>
+                <p class="title"><a href="#"><img src="phone.png" alt="">92 666 888 0000</a></p> 
+                <p class="title"><a href="#"><img src="email.png" alt="">needhelp@kontin.com</a></p>
+                <p class="title"><a href="#"><img src="maps-and-flags.png" alt="">22 Texas west hills, Austin</a></p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ************Contact form ************** -->
+    <section class="contact-form-section">
+        <div class="heading">
+          <p>ASK ANY QUESTION</p>
+            <h1>Feel Free to Contact</h1>
+            
+        </div>
+        <div class="form-container">
+          <form id="contactForm">
+              <div class="form-row">
+                  <input type="text" id="name" placeholder="Your Name" required="">
+                  <input type="email" id="email" placeholder="Email Address" required="">
+              </div>
+              <div class="form-row">
+                  <input type="tel" id="phone" placeholder="Phone Number" required="">
+                  <input type="text" id="subject" placeholder="Subject" required="">
+              </div>
+              <div class="form-row">
+                  <textarea id="message" cols="80" rows="7" placeholder="Write A Message" required=""></textarea>
+              </div>
+              <div class="form-row">
+                  <button type="button" class="send-btn" onclick="clearForm()">Send A Message</button>
+              </div>
+          </form>
+      </div>
+    </section>
+
+<!-- **************** MAP *************** -->
+
+<section class="map-section">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.   8354345093745!2d144.95565131531677!3d-37.   817327979751774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.  1!3m3!1m2!1s0x6ad65d43f2447a03%3A0x5045675218ce6e0!2zTWVsYm91cm5lIFZJQyAzMDAwLCDQs9C- 0YDQvtCy0LAg0JrQvtC80YHQvtCy0LDRjyDQvtCx0LsuLCA1MzUgQVUg4oCTLCA4MDAx!5e0!3m2!1sen!2   u!4v1631787949283!5m2!1sen!2sau" width="100%" height="450" style="border:0;"   
+    allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+
+
+
+
+    <!-- ######################  Footer  ######################### -->
+
+    <footer class="bg-gray-900">
+        <div class="container mx-auto flex flex-col md:flex-row md:justify-around py-8 text-white">
+            <div class="flex flex-col ml-32 mb-6 md:mb-0 w-full md:w-1/3 mr-0 gap-2">
+                <div class="flex  mt-10">
+                    <img src="./Assets/building.png" class="h-6 w-6 bg-[#FAA918]" alt="Building Icon">
+                <h2 class="font-mono font-semibold text-2xl tracking-widest ml-2">KONTIN</h2>
+                </div>
+                <p class=" mr-2 text-lg ">Great Experience for <br> Building Construction & <br> Materials</p>
+                <div class="mt-2 mb-4 text-xs flex space-x-4 gap-6">
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="text-white hover:text-gray-400 bg-gray-600 rounded">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="text-white hover:text-gray-400">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="text-white hover:text-gray-400">
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="text-white hover:text-gray-400">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="flex flex-col md:w-1/3 mt-10 mr-0 ml-10">
+                <h3 class="text-sm font-bold mb-4">Links</h3>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#" class="hover:text-white mb-4 ">About Us</a></li>
+                    <li><a href="#" class="hover:text-white mb-4 gap-8">Meet Our Team</a></li>
+                    <li><a href="#" class="hover:text-white mb-4">News & Media</a></li>
+                    <li><a href="#" class="hover:text-white mb-4">Our Projects</a></li>
+                    <li><a href="#" class="hover:text-white mb-4">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="lex flex-col md:w-1/3 mt-10 mr-10 ml-2 mb-6">
+                <h3 class="text-sm font-bold mb-4">Contact</h3>
+                <ul class="space-y-2 text-xs" >
+                    <li><a href="tel:+926668880000" class="hover:text-white">
+                        <i class="fas fa-phone-alt mb-2 text-[#FAA918] mr-2"></i> +92 666 888 0000
+                    </a></li>
+                    <li><a href="mailto:needhelp@kontin.com" class="hover:text-white">
+                        <i class="fas fa-envelope mb-2 text-[#FAA918] mr-2"></i> needhelp@kontin.com
+                    </a></li>
+                    <li><a href="#" class="hover:text-white">
+                        <i class="fas fa-map-marker-alt mt-2 text-[#FAA918] mr-2"></i> 88 Road Broklyn Golden Street. New  <br> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; York. United States of America
+                    </a></li>
+                </ul>
+            </div>
+            <div class="flex flex-col md:w-1/3 mt-10 mr-44">
+                <h3 class="text-lg font-bold mb-4">Newsletter</h3>
+                <p class="mb-4 text-xs text-gray-400">There are many of simple lorem available for not, but the majority alteration.</p>
+                <div class="relative">
+                    <input type="text" placeholder="Email Address" class="w-full px-4 py-2 text-" />
+                    <button type="submit" class="absolute right-4 top-1/2 -translate-y-1/2 px-4 py-2 text-[#FAA918]">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                
+                <div class="mt-4">
+                    <input type="checkbox" id="some_id" class="relative peer shrink-0 appearance-none w-4 h-4 border-2 border-gray-500 rounded-sm bg-white mt-1 checked:bg-[#FAA918] checked:border-0" />
+                    <label for="terms" class="text-sm text-gray-400">I agree to all terms and policies</label>
+                </div>
+            </div>
+        </div>
+        <div class="mt-6 text-center text-xs text-gray-400 bg-black p-6">
+            ©All Copyright 2021 by Layerdrops.com
+        </div>
+    </footer>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
